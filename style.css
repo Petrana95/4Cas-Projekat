@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html, h1, h2, h3, h4, h5, h6, p, a, div, span, 
+ul, li, img, figure, form, label, input, button    {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.wraper {
+    width: 1400px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.header-text-color {
+    color: white;
+}
+.logo-section {
+    display: flex;
+    align-items: center;  
+}
+.nav-container {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    
+}
+.ul-list {
+    display: flex;
+    gap: 100px;
+    margin-right: 300px;
+    color: white;
+    font-size: 30px;
+}
+
+.ul-list  li a {
+    text-decoration: none;
+}
+
+.header-container{
+    width: 100%;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: url("./heroImage.jpg");
+    background-size: cover;
+}
+.font-size {
+    font-size: 40px;
+    font-style: Georgia;
+    position: absolute;
+    width: 550px;
+    left: 85px;
+    top: 425px;
+
+}
+.button-position {
+    position: absolute;
+    left: 82px;
+    bottom: 150px;
+    display: flex;
+}
+.button-position button {
+    font-size: 10px;
+    font-family: Verdana;
+    width: 190px;
+    height: 50px;
+    margin-right: 35px;
+
+    
+}
+.button-desing {
+    background: #E4E6C3;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-weight: 700;
+    line-height: 10px;
+   
+}
+.button-desing1 {
+    border: 3px solid #E4E6C3;
+    border-radius: 20px;
+    color: #E4E6C3;
+    background-color: transparent;
+}
+.italic-text {
+
+    font-style: italic;
+    color: green;
+}
+.container-txt {
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 110px;
+}
+.container-txt1 {
+    width: 50%;
+    margin-top: 51px;
+    margin-left: 700px;
+    margin-bottom: 110px;
+}
+.text-green {
+    color: green;
+}
+.my-bottom {
+    margin-bottom: 20px;
+}
+.my-bottom1 {
+    margin-bottom: 20px;
+}
+.background {
+   padding: 100px;
+   background-color: #f0f1e2;
+
+}
+
+.center {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.text-decoration {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    width: 55%;
+    margin-left: 22%;
+    
+
+}
+.center-txt {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 79px;
+    margin-left: 100px;
+    margin-bottom: 79px;
+    width: 80%;
+}
+.forma {
+    width: 18%;
+    margin: auto;
+    
+}
+
+.content-button {
+    background: #eff1db;
+    border: 1px solid #222725;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+.button-decor {
+    margin-top: 20px;
+}
+.bacground-frame {
+   
+   padding: 36px;
+   background-color:rgb(87, 122, 87);
+}
+.decor {
+    margin-top: 19px;
+    margin-bottom: 110px;
+    padding: 10px;
+    width: 110px;
+}
+.img-position {   /*ovo nije uradjeno*/
+    position: absolute;
+    left: 84%;
+    /* right: 110.59%; */
+    top: 378%;
+}
+.paragraf-finish {
+    text-align: center;
+
+}
+.autor {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+.autor1 {
+    text-align: center;
+    color: pink;
+    font-style: italic;
+}
+.ul-list a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
